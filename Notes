@@ -1,0 +1,17 @@
+The field of study that gives computers the ability to learn without being programmed. by ARTHUR SAMUEL
+A computer program is said to learn from experience(E) with respect to some tasks(T) and performance measure (P), 
+if its performance at task as measured by P , improves with experience E by Tom Mitchell
+
+SUPERVISED LEARNING
+IN this learning we are given a data set already and know what our correct output should look like,having the 
+idea that their is a relationship between intput and output.they are further divided into two - regression and 
+classification problems.
+In Regression problem - we are trying to predict the result within the continuous output
+means we are rying to map input variables to some continuous fucntion
+In Classification problem - we are tring to predict results in a discrete output,that is trying to map intput into discrete categories.
+
+UNSUPERVISED LEARNING
+It allows us to approach problems with little or no idea what our results should look like. we can derive structure from data 
+where we dont necessarily know the effect of variables.
+we can derive the structure by clustering the data based on relationships among the variables in the data
+there is no feedback based on the prediction results
