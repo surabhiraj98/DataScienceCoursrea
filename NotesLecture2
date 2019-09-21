@@ -1,0 +1,21 @@
+Model Representation
+In establish notation for future use, we will use x^i to denote the "input" variable called input features, y^i to denote the "output" or target variable that we are trying to predict(price). 
+A pair (xi,yi) is training.
+i = 1....n is training set 
+       training set 
+          |
+        learing algo 
+           |
+   x --->  h ---> predicted y
+When the target variable that we’re trying to predict is continuous, such as in our housing example, we call the learning problem a regression problem. When y can take on only a small number of discrete values, we call it a classification problem.
+   COST FUNCTION
+we can measure the accracy of our hypothesis function by using a cost function. this takes the avg difference of all the results of the hypothesis with input from x's and the actual output y's
+j(theta0,theta1) = 1/2m(i=1to m sigma (vector yi - yi)^2 = 1/2m(i=1tom sigma(htheta(xi)-yi)^2
+   GRADIENT DESCENT
+we have our hypothesis function and we have a way of measuring how well it fits into the data. Now we need to estimate the parameters in the hypothesis function. That's where gradient descent comes in.
+θ1​:=θ1​−α(d/​dθ1​)J(θ1​)
+  Gradient Descent For Linear Regression 
+0:=θ0−α1m∑i=1m(hθ(xi)−yi)
+θ1:=θ1−α1m∑i=1m(hθ(xi)−yi)xi
+
+
